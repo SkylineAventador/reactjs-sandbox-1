@@ -17,7 +17,7 @@ const Navbar = () => {
                 <a>Music</a>
             </div>
             <div className={s.item}>
-                <a>Setting</a>
+                <a>Settings</a>
             </div>
         </nav>
     );
