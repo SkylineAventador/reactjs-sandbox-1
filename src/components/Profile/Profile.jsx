@@ -2,7 +2,7 @@ import React from "react";
 import MyPosts from "./MyPosts/MyPosts";
 import s from './Profile.module.css';
 
-const Profile = () => {
+const ProfileInfo = (props) => {
     return (
         <div>
             <div>
@@ -13,6 +13,13 @@ const Profile = () => {
                 ava + description
             </div>
             <MyPosts/>
+        </div>
+    )
+}
+const Profile = () => {
+    return (
+        <div>
+            <ProfileInfo/>
         </div>
     );
 }
