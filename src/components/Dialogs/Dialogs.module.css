@@ -16,6 +16,11 @@
     text-decoration: none;
 }
 
+.dialog img {
+    width: 30px;
+    margin-right: 5px;
+}
+
 .messages {
     padding: 10px;
 }
