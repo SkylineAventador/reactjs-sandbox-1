@@ -19,6 +19,14 @@ let state = {
             {id: 1, message: 'Hello, this is my first message'},
             {id: 2, message: 'Thumbnail'}
         ]
+    },
+
+    friendsBlock: {
+        names: [
+            {friendName: 'Dmitriy'},
+            {friendName: 'Masha'},
+            {friendName: 'Inna'}
+        ]
     }
 
 }
